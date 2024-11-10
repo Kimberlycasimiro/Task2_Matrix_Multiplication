@@ -15,14 +15,12 @@
     </properties>
 
     <dependencies>
-        <!-- JMH Core -->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>
             <version>1.35</version>
         </dependency>
 
-        <!-- JMH Annotation Processor -->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-generator-annprocess</artifactId>
@@ -30,14 +28,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Gson for JSON parsing (example dependency) -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.9</version>
         </dependency>
 
-        <!-- EJML for matrix operations (example dependency) -->
         <dependency>
             <groupId>org.ejml</groupId>
             <artifactId>ejml-all</artifactId>
@@ -47,7 +43,6 @@
 
     <build>
         <resources>
-            <!-- Updated the resource directory to src/main/resources -->
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
@@ -57,7 +52,6 @@
         </resources>
 
         <plugins>
-            <!-- Maven Compiler Plugin with Annotation Processor -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -75,7 +69,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven JAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -91,7 +84,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven Shade Plugin for Packaging JMH with Dependencies -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -113,7 +105,6 @@
                 </executions>
             </plugin>
 
-            <!-- Exec Maven Plugin for Running JMH Benchmarks -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>

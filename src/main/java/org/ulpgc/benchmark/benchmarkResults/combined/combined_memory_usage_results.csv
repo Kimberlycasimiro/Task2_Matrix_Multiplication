@@ -1,0 +1,193 @@
+Method,MatrixType,MemoryUsageMb,MatrixSize,SparsityLevel
+Basic Multiplication,Dense,1,64,0.0
+Cache Blocked Multiplication,Dense,1,64,0.0
+Loop Unrolling Multiplication,Dense,0,64,0.0
+Parallel Multiplication,Dense,0,64,0.0
+Strassen Multiplication,Dense,4,64,0.0
+Vectorized Multiplication,Dense,1,64,0.0
+Winograd Multiplication,Dense,0,64,0.0
+Sparse Multiplication,Sparse,0,64,0.0
+Basic Multiplication,Dense,0,64,0.3
+Cache Blocked Multiplication,Dense,0,64,0.3
+Loop Unrolling Multiplication,Dense,0,64,0.3
+Parallel Multiplication,Dense,0,64,0.3
+Strassen Multiplication,Dense,4,64,0.3
+Vectorized Multiplication,Dense,1,64,0.3
+Winograd Multiplication,Dense,0,64,0.3
+Sparse Multiplication,Sparse,0,64,0.3
+Basic Multiplication,Dense,0,64,0.5
+Cache Blocked Multiplication,Dense,1,64,0.5
+Loop Unrolling Multiplication,Dense,0,64,0.5
+Parallel Multiplication,Dense,0,64,0.5
+Strassen Multiplication,Dense,3,64,0.5
+Vectorized Multiplication,Dense,1,64,0.5
+Winograd Multiplication,Dense,0,64,0.5
+Sparse Multiplication,Sparse,0,64,0.5
+Basic Multiplication,Dense,0,64,0.8
+Cache Blocked Multiplication,Dense,1,64,0.8
+Loop Unrolling Multiplication,Dense,0,64,0.8
+Parallel Multiplication,Dense,0,64,0.8
+Strassen Multiplication,Dense,3,64,0.8
+Vectorized Multiplication,Dense,1,64,0.8
+Winograd Multiplication,Dense,0,64,0.8
+Sparse Multiplication,Sparse,0,64,0.8
+Basic Multiplication,Dense,0,128,0.0
+Cache Blocked Multiplication,Dense,1,128,0.0
+Loop Unrolling Multiplication,Dense,0,128,0.0
+Parallel Multiplication,Dense,0,128,0.0
+Strassen Multiplication,Dense,4,128,0.0
+Vectorized Multiplication,Dense,1,128,0.0
+Winograd Multiplication,Dense,0,128,0.0
+Sparse Multiplication,Sparse,0,128,0.0
+Basic Multiplication,Dense,0,128,0.3
+Cache Blocked Multiplication,Dense,2,128,0.3
+Loop Unrolling Multiplication,Dense,0,128,0.3
+Parallel Multiplication,Dense,1,128,0.3
+Strassen Multiplication,Dense,62,128,0.3
+Vectorized Multiplication,Dense,1,128,0.3
+Winograd Multiplication,Dense,0,128,0.3
+Sparse Multiplication,Sparse,0,128,0.3
+Basic Multiplication,Dense,1,128,0.5
+Cache Blocked Multiplication,Dense,2,128,0.5
+Loop Unrolling Multiplication,Dense,0,128,0.5
+Parallel Multiplication,Dense,0,128,0.5
+Strassen Multiplication,Dense,5,128,0.5
+Vectorized Multiplication,Dense,1,128,0.5
+Winograd Multiplication,Dense,1,128,0.5
+Sparse Multiplication,Sparse,1,128,0.5
+Basic Multiplication,Dense,0,128,0.8
+Cache Blocked Multiplication,Dense,2,128,0.8
+Loop Unrolling Multiplication,Dense,0,128,0.8
+Parallel Multiplication,Dense,0,128,0.8
+Strassen Multiplication,Dense,6,128,0.8
+Vectorized Multiplication,Dense,1,128,0.8
+Winograd Multiplication,Dense,0,128,0.8
+Sparse Multiplication,Sparse,0,128,0.8
+Basic Multiplication,Dense,1,256,0.0
+Cache Blocked Multiplication,Dense,1,256,0.0
+Loop Unrolling Multiplication,Dense,1,256,0.0
+Parallel Multiplication,Dense,1,256,0.0
+Strassen Multiplication,Dense,26,256,0.0
+Vectorized Multiplication,Dense,1,256,0.0
+Winograd Multiplication,Dense,1,256,0.0
+Sparse Multiplication,Sparse,1,256,0.0
+Basic Multiplication,Dense,1,256,0.3
+Cache Blocked Multiplication,Dense,3,256,0.3
+Loop Unrolling Multiplication,Dense,3,256,0.3
+Parallel Multiplication,Dense,0,256,0.3
+Strassen Multiplication,Dense,61,256,0.3
+Vectorized Multiplication,Dense,1,256,0.3
+Winograd Multiplication,Dense,1,256,0.3
+Sparse Multiplication,Sparse,1,256,0.3
+Basic Multiplication,Dense,1,256,0.5
+Cache Blocked Multiplication,Dense,2,256,0.5
+Loop Unrolling Multiplication,Dense,1,256,0.5
+Parallel Multiplication,Dense,1,256,0.5
+Strassen Multiplication,Dense,36,256,0.5
+Vectorized Multiplication,Dense,1,256,0.5
+Winograd Multiplication,Dense,1,256,0.5
+Sparse Multiplication,Sparse,1,256,0.5
+Basic Multiplication,Dense,0,256,0.8
+Cache Blocked Multiplication,Dense,1,256,0.8
+Loop Unrolling Multiplication,Dense,1,256,0.8
+Parallel Multiplication,Dense,1,256,0.8
+Strassen Multiplication,Dense,69,256,0.8
+Vectorized Multiplication,Dense,1,256,0.8
+Winograd Multiplication,Dense,0,256,0.8
+Sparse Multiplication,Sparse,0,256,0.8
+Basic Multiplication,Dense,3,512,0.0
+Cache Blocked Multiplication,Dense,5,512,0.0
+Loop Unrolling Multiplication,Dense,3,512,0.0
+Parallel Multiplication,Dense,3,512,0.0
+Strassen Multiplication,Dense,46,512,0.0
+Vectorized Multiplication,Dense,3,512,0.0
+Winograd Multiplication,Dense,3,512,0.0
+Sparse Multiplication,Sparse,3,512,0.0
+Basic Multiplication,Dense,3,512,0.3
+Cache Blocked Multiplication,Dense,8,512,0.3
+Loop Unrolling Multiplication,Dense,2,512,0.3
+Parallel Multiplication,Dense,3,512,0.3
+Strassen Multiplication,Dense,25,512,0.3
+Vectorized Multiplication,Dense,3,512,0.3
+Winograd Multiplication,Dense,3,512,0.3
+Sparse Multiplication,Sparse,3,512,0.3
+Basic Multiplication,Dense,3,512,0.5
+Cache Blocked Multiplication,Dense,4,512,0.5
+Loop Unrolling Multiplication,Dense,2,512,0.5
+Parallel Multiplication,Dense,2,512,0.5
+Strassen Multiplication,Dense,20,512,0.5
+Vectorized Multiplication,Dense,3,512,0.5
+Winograd Multiplication,Dense,3,512,0.5
+Sparse Multiplication,Sparse,3,512,0.5
+Basic Multiplication,Dense,3,512,0.8
+Cache Blocked Multiplication,Dense,5,512,0.8
+Loop Unrolling Multiplication,Dense,2,512,0.8
+Parallel Multiplication,Dense,2,512,0.8
+Strassen Multiplication,Dense,16,512,0.8
+Vectorized Multiplication,Dense,3,512,0.8
+Winograd Multiplication,Dense,3,512,0.8
+Sparse Multiplication,Sparse,3,512,0.8
+Basic Multiplication,Dense,9,1024,0.0
+Cache Blocked Multiplication,Dense,9,1024,0.0
+Loop Unrolling Multiplication,Dense,9,1024,0.0
+Parallel Multiplication,Dense,9,1024,0.0
+Strassen Multiplication,Dense,443,1024,0.0
+Vectorized Multiplication,Dense,9,1024,0.0
+Winograd Multiplication,Dense,9,1024,0.0
+Sparse Multiplication,Sparse,9,1024,0.0
+Basic Multiplication,Dense,9,1024,0.3
+Cache Blocked Multiplication,Dense,9,1024,0.3
+Loop Unrolling Multiplication,Dense,8,1024,0.3
+Parallel Multiplication,Dense,9,1024,0.3
+Strassen Multiplication,Dense,307,1024,0.3
+Vectorized Multiplication,Dense,9,1024,0.3
+Winograd Multiplication,Dense,9,1024,0.3
+Sparse Multiplication,Sparse,9,1024,0.3
+Basic Multiplication,Dense,9,1024,0.5
+Cache Blocked Multiplication,Dense,9,1024,0.5
+Loop Unrolling Multiplication,Dense,9,1024,0.5
+Parallel Multiplication,Dense,9,1024,0.5
+Strassen Multiplication,Dense,336,1024,0.5
+Vectorized Multiplication,Dense,9,1024,0.5
+Winograd Multiplication,Dense,9,1024,0.5
+Sparse Multiplication,Sparse,9,1024,0.5
+Basic Multiplication,Dense,9,1024,0.8
+Cache Blocked Multiplication,Dense,9,1024,0.8
+Loop Unrolling Multiplication,Dense,9,1024,0.8
+Parallel Multiplication,Dense,9,1024,0.8
+Strassen Multiplication,Dense,106,1024,0.8
+Vectorized Multiplication,Dense,9,1024,0.8
+Winograd Multiplication,Dense,9,1024,0.8
+Sparse Multiplication,Sparse,9,1024,0.8
+Basic Multiplication,Dense,34,2048,0.0
+Cache Blocked Multiplication,Dense,34,2048,0.0
+Loop Unrolling Multiplication,Dense,52,2048,0.0
+Parallel Multiplication,Dense,33,2048,0.0
+Strassen Multiplication,Dense,167,2048,0.0
+Vectorized Multiplication,Dense,33,2048,0.0
+Winograd Multiplication,Dense,34,2048,0.0
+Sparse Multiplication,Sparse,34,2048,0.0
+Basic Multiplication,Dense,34,2048,0.3
+Cache Blocked Multiplication,Dense,34,2048,0.3
+Loop Unrolling Multiplication,Dense,52,2048,0.3
+Parallel Multiplication,Dense,33,2048,0.3
+Strassen Multiplication,Dense,341,2048,0.3
+Vectorized Multiplication,Dense,33,2048,0.3
+Winograd Multiplication,Dense,33,2048,0.3
+Sparse Multiplication,Sparse,33,2048,0.3
+Basic Multiplication,Dense,33,2048,0.5
+Cache Blocked Multiplication,Dense,34,2048,0.5
+Loop Unrolling Multiplication,Dense,52,2048,0.5
+Parallel Multiplication,Dense,33,2048,0.5
+Strassen Multiplication,Dense,135,2048,0.5
+Vectorized Multiplication,Dense,33,2048,0.5
+Winograd Multiplication,Dense,33,2048,0.5
+Sparse Multiplication,Sparse,33,2048,0.5
+Basic Multiplication,Dense,33,2048,0.8
+Cache Blocked Multiplication,Dense,34,2048,0.8
+Loop Unrolling Multiplication,Dense,52,2048,0.8
+Parallel Multiplication,Dense,33,2048,0.8
+Strassen Multiplication,Dense,263,2048,0.8
+Vectorized Multiplication,Dense,33,2048,0.8
+Winograd Multiplication,Dense,33,2048,0.8
+Sparse Multiplication,Sparse,33,2048,0.8

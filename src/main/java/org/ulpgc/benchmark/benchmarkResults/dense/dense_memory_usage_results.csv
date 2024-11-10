@@ -1,0 +1,43 @@
+Method,MatrixType,MemoryUsageMb,MatrixSize
+Basic Multiplication,Dense,0,64
+Cache Blocked Multiplication,Dense,0,64
+Loop Unrolling Multiplication,Dense,0,64
+Parallel Multiplication,Dense,0,64
+Strassen Multiplication,Dense,4,64
+Vectorized Multiplication,Dense,1,64
+Winograd Multiplication,Dense,0,64
+Basic Multiplication,Dense,0,128
+Cache Blocked Multiplication,Dense,1,128
+Loop Unrolling Multiplication,Dense,0,128
+Parallel Multiplication,Dense,0,128
+Strassen Multiplication,Dense,7,128
+Vectorized Multiplication,Dense,1,128
+Winograd Multiplication,Dense,0,128
+Basic Multiplication,Dense,0,256
+Cache Blocked Multiplication,Dense,0,256
+Loop Unrolling Multiplication,Dense,1,256
+Parallel Multiplication,Dense,1,256
+Strassen Multiplication,Dense,12,256
+Vectorized Multiplication,Dense,1,256
+Winograd Multiplication,Dense,0,256
+Basic Multiplication,Dense,2,512
+Cache Blocked Multiplication,Dense,3,512
+Loop Unrolling Multiplication,Dense,2,512
+Parallel Multiplication,Dense,2,512
+Strassen Multiplication,Dense,14,512
+Vectorized Multiplication,Dense,3,512
+Winograd Multiplication,Dense,2,512
+Basic Multiplication,Dense,9,1024
+Cache Blocked Multiplication,Dense,9,1024
+Loop Unrolling Multiplication,Dense,8,1024
+Parallel Multiplication,Dense,8,1024
+Strassen Multiplication,Dense,71,1024
+Vectorized Multiplication,Dense,9,1024
+Winograd Multiplication,Dense,9,1024
+Basic Multiplication,Dense,32,2048
+Cache Blocked Multiplication,Dense,34,2048
+Loop Unrolling Multiplication,Dense,40,2048
+Parallel Multiplication,Dense,34,2048
+Strassen Multiplication,Dense,179,2048
+Vectorized Multiplication,Dense,33,2048
+Winograd Multiplication,Dense,33,2048
